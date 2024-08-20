@@ -6,9 +6,19 @@ app.set('view engine', 'ejs');
 
 // Home page
 app.get('/', function(req, res) {
-res.render('Pages/Home.ejs');
+res.render('pages/home.ejs');
 });
 
+
+//About page
+app.get('/about', function(req, res) {
+res.render('pages/about.ejs');
+});
+
+//Community page
+app.get('/community', function(req, res) {
+res.render('pages/community.ejs');
+});
 
 
 app.listen(3000);
