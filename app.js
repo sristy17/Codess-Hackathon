@@ -20,6 +20,11 @@ app.get('/community', function(req, res) {
 res.render('pages/community.ejs');
 });
 
+//Helpline page
+app.get('/helpline', function(req, res) {
+res.render('pages/helpline.ejs');
+});
+
 
 app.listen(3000);
 console.log('Server is listening on port 3000');
