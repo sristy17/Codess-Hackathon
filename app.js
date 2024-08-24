@@ -37,6 +37,5 @@ app.get('/submit-story', function(req, res) {
 app.get('/job-application', function(req, res) {
     res.render('pages/job-application.ejs');
 });
-
 app.listen(3000);
 console.log('Server is listening on port 3000');
