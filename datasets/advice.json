@@ -1,0 +1,284 @@
+[
+    {
+        "scenario": "If you feel like you're being followed",
+        "actions": [
+            "Stay calm and alert: Don't panic and avoid making it obvious that you know you're being followed.",
+            "Go public: Stay in well-lit, populated areas, and try to get to a security guard or police officer.",
+            "Take a detour: Try turning a corner or reversing direction to see if the person following you does the same.",
+            "Gather information: Use reflections to see who's behind you, and try to capture a picture or video of the suspect.",
+            "Call for help: Use your phone to call the police or a friend, or ping your location to someone in your contacts.",
+            "Have a tool: Carry a self-defense device like pepper spray or a safety whistle.",
+            "Be prepared: Know your surroundings and mentally prepare for further action if needed."
+        ]
+    },
+    {
+        "scenario": "If you're alone in an elevator with a stranger",
+        "actions": [
+            "Stand near the control panel: This allows you to press the alarm button or select another floor quickly.",
+            "Stay confident: Maintain a confident posture and make brief eye contact to show you're aware.",
+            "Avoid distractions: Don't use your phone or other devices; stay alert to your surroundings.",
+            "Press your floor button last: If the stranger selects a floor, press yours afterward to avoid showing your destination.",
+            "Exit with caution: If you feel uneasy, consider stepping out before your intended floor and waiting for another elevator."
+        ]
+    },
+    {
+        "scenario": "If you're confronted by a stranger on the street",
+        "actions": [
+            "Stay composed: Keep calm and assess the situation without showing fear or panic.",
+            "Maintain distance: Keep a safe distance between you and the stranger, and don't hesitate to move away.",
+            "Use your voice: Loudly and firmly tell the stranger to stop if they invade your space. Yelling can attract attention.",
+            "Look for escape routes: Identify nearby exits, open shops, or busy areas where you can seek help.",
+            "Prepare for self-defense: If the situation escalates, be ready to use any self-defense tools you carry, such as pepper spray."
+        ]
+    },
+    {
+        "scenario": "If you're in a car and feel unsafe",
+        "actions": [
+            "Lock your doors: Ensure all doors are locked immediately upon entering your car.",
+            "Plan your route: Before starting the car, plan your route to avoid getting lost or ending up in a dangerous area.",
+            "Don't roll down the window: If approached by someone, keep your windows up and communicate through a small gap or use gestures.",
+            "Drive to safety: If you feel threatened, drive to the nearest police station, hospital, or crowded place.",
+            "Use your horn: If you're being followed or harassed, use your car's horn to draw attention."
+        ]
+    },
+    {
+        "scenario": "If you're using public transportation late at night",
+        "actions": [
+            "Sit near the driver: On a bus, sit close to the driver where you are more visible.",
+            "Avoid empty cars: On a train or subway, choose a car with more passengers rather than an empty one.",
+            "Stay awake and alert: Avoid falling asleep; remain aware of your surroundings.",
+            "Prepare your exit: Know your stop ahead of time and move closer to the exit as it approaches.",
+            "Have a backup plan: If something feels off, consider getting off at a stop where you can safely wait for the next bus or train."
+        ]
+    },
+    {
+        "scenario": "If someone tries to grab you",
+        "actions": [
+            "Make noise: Scream, yell for help, or use a whistle to attract attention.",
+            "Fight back: Use self-defense techniques such as targeting the eyes, throat, or groin of the attacker.",
+            "Use your tools: If you have pepper spray, a stun gun, or another self-defense tool, use it immediately.",
+            "Run away: If you can break free, run towards a populated area, or anywhere you can find help.",
+            "Report the incident: As soon as you're safe, report the incident to the police and provide as much information as possible."
+        ]
+    },
+    {
+        "scenario": "If you're being harassed online",
+        "actions": [
+            "Document the harassment: Take screenshots or save messages as evidence.",
+            "Block the harasser: Use the platform's tools to block the person from contacting you further.",
+            "Report the behavior: Report the harassment to the platform's support team and, if serious, to law enforcement.",
+            "Strengthen your privacy settings: Adjust your social media and online profiles to limit what information is publicly visible.",
+            "Seek support: Talk to friends, family, or a counselor if the harassment is affecting your mental well-being."
+        ]
+    },
+    {
+        "scenario": "If you feel unsafe in a social situation",
+        "actions": [
+            "Trust your instincts: If something feels off, don't hesitate to remove yourself from the situation.",
+            "Have an exit strategy: Before attending, know how you'll get home and share your plans with a trusted friend.",
+            "Stay sober and aware: Limit alcohol consumption to stay in control of your decisions and awareness.",
+            "Keep your drink with you: Never leave your drink unattended or accept drinks from strangers.",
+            "Use a buddy system: Stick with friends, especially in unfamiliar settings, and agree to watch out for each other."
+        ]
+    },
+    {
+        "scenario": "If you're being followed while driving",
+        "actions": [
+            "Stay on main roads: Avoid deserted areas and stick to well-lit, populated roads.",
+            "Don't go home: Avoid leading the follower to your home; instead, drive to a police station or a public place.",
+            "Signal for help: If possible, signal to other drivers or pedestrians by honking your horn or flashing your lights.",
+            "Don't stop: Keep driving and avoid stopping until you're in a safe, populated area.",
+            "Call the police: Contact the authorities immediately and provide them with your location and a description of the vehicle following you."
+        ]
+    },
+    {
+        "scenario": "If someone is attempting to break into your home",
+        "actions": [
+            "Lock yourself in a safe room: Go to a room with a strong lock, preferably with a phone and something to barricade the door.",
+            "Call 911: Immediately contact emergency services and provide them with your address and the situation.",
+            "Make noise: If safe to do so, create loud noises, such as setting off the car alarm or yelling, to deter the intruder.",
+            "Prepare for self-defense: If the intruder breaches your safe room, be ready to use any available self-defense tools.",
+            "Stay put: Remain in your safe room until authorities arrive and ensure it’s safe to come out."
+        ]
+    },
+    {
+        "scenario": "If you're approached by someone asking for money or acting aggressively",
+        "actions": [
+            "Politely decline: Firmly and calmly say that you can't help and continue moving.",
+            "Avoid showing valuables: Keep your belongings close and avoid taking out your wallet or phone.",
+            "Create distance: Step back and maintain a safe distance while staying aware of your surroundings.",
+            "Look for an exit: Identify an escape route or move toward a more populated area.",
+            "Seek help: If the situation escalates, shout for help or go into a nearby store or building."
+        ]
+    },
+    {
+        "scenario": "If you're in a crowded place and feel unsafe",
+        "actions": [
+            "Stay aware of exits: Identify the nearest exits and make a mental note of them.",
+            "Avoid isolated areas: Stay in areas with more people, like near security personnel or well-lit sections.",
+            "Keep your belongings close: Hold your bag or purse securely to avoid theft or tampering.",
+            "Move with purpose: Walk confidently and avoid lingering in one spot for too long.",
+            "Have a meeting point: If with friends, agree on a meeting spot in case you get separated."
+        ]
+    },
+    {
+        "scenario": "If you receive an unwanted advance or feel uncomfortable with someone's behavior",
+        "actions": [
+            "Set boundaries: Clearly and firmly tell the person that their behavior is not acceptable.",
+            "Remove yourself: If possible, leave the area or situation where the uncomfortable behavior is occurring.",
+            "Seek support: If you're with friends or in a public place, ask for help or support from others around you.",
+            "Document the interaction: If the behavior persists, document what happened in case you need to report it later.",
+            "Trust your instincts: If you feel threatened or unsafe, prioritize your safety and get out of the situation."
+        ]
+    },
+    {
+        "scenario": "If you're at an ATM and feel unsafe",
+        "actions": [
+            "Choose a safe location: Use ATMs in well-lit, populated areas, preferably inside a bank or building.",
+            "Be aware of your surroundings: Before approaching the ATM, scan the area for anything suspicious.",
+            "Keep transactions quick: Be ready with your card and avoid lingering after your transaction.",
+            "Shield your PIN: Use your hand to cover the keypad while entering your PIN.",
+            "Cancel and leave: If you feel unsafe, cancel your transaction and leave the area immediately."
+        ]
+    },
+    {
+        "scenario": "If you feel unsafe in a rideshare or taxi",
+        "actions": [
+            "Verify the driver and car: Check that the car and driver match the app’s details before getting in.",
+            "Share your ride details: Send your trip details and route to a friend or family member.",
+            "Sit in the back: This gives you more control over the situation and easier access to exits.",
+            "Monitor the route: Follow along on your phone's map to ensure the driver is following the expected route.",
+            "End the ride early: If you feel unsafe, ask the driver to stop in a safe, public area and get out."
+        ]
+    },
+    {
+        "scenario": "If you think someone has tampered with your drink",
+        "actions": [
+            "Don't drink it: If your drink tastes or smells unusual, or if you left it unattended, do not consume it.",
+            "Get to a safe place: Immediately move to a well-lit, populated area where you can seek help if needed.",
+            "Alert someone you trust: Let a friend, bartender, or security personnel know about the situation.",
+            "Monitor your health: Pay attention to any unusual symptoms like dizziness or confusion and seek medical help if needed.",
+            "Report the incident: If you believe your drink was tampered with, report it to the venue staff and authorities."
+        ]
+    },
+    {
+        "scenario": "If you're being blackmailed or threatened",
+        "actions": [
+            "Do not give in: Refuse to comply with the blackmailer’s demands and avoid giving them any information or money.",
+            "Document everything: Keep records of all communication with the blackmailer, including messages and emails.",
+            "Report to authorities: Contact the police immediately and provide them with the evidence you've gathered.",
+            "Secure your accounts: Change your passwords and secure your online accounts if the blackmailer has access to any of them.",
+            "Seek support: Talk to a trusted friend, family member, or counselor about the situation to get emotional and practical support."
+        ]
+    },
+    {
+        "scenario": "If you're in a domestic violence situation",
+        "actions": [
+            "Have a safety plan: Plan how you will leave the situation, including a safe place to go and how to get there.",
+            "Contact a support organization: Reach out to a domestic violence hotline or shelter for guidance and assistance.",
+            "Document the abuse: Keep a record of incidents, including photos, messages, and dates, if it’s safe to do so.",
+            "Avoid confrontation: Try to stay calm and avoid escalating the situation until you can leave safely.",
+            "Get out safely: When it’s safe, leave the situation and go to a pre-planned safe location, and contact the authorities."
+        ]
+    },
+    {
+        "scenario": "If you're being followed on foot at night",
+        "actions": [
+            "Cross the street: Change your direction by crossing the street or taking a different route.",
+            "Enter a nearby business: Go into an open store, restaurant, or any public building to seek safety.",
+            "Act unpredictably: Make sudden turns or walk in a zigzag pattern to see if the person follows.",
+            "Call someone: Call a friend or family member and let them know where you are and what’s happening.",
+            "Use your voice: If you feel the threat is imminent, yell or shout to draw attention to yourself."
+        ]
+    },
+    {
+        "scenario": "If you encounter a suspicious person near your home",
+        "actions": [
+            "Don’t approach: Keep your distance and avoid confronting the person directly.",
+            "Secure your home: Ensure all doors and windows are locked, and set any alarms you have.",
+            "Observe discreetly: Watch from a safe, hidden spot to gather information on the person’s appearance and behavior.",
+            "Call the police: Report the suspicious activity to the authorities and provide them with any details you’ve observed.",
+            "Stay inside: Remain indoors until the authorities arrive and the area is confirmed to be safe."
+        ]
+    },
+    {
+        "scenario": "If you receive an unexpected knock on your door at night",
+        "actions": [
+            "Don’t open the door: Speak through the door without unlocking it or use a peephole to see who it is.",
+            "Ask for identification: If the person claims to be a service worker or law enforcement, ask to see ID through the window or peephole.",
+            "Call for confirmation: If it’s someone claiming to be from a company, call the company to verify their presence.",
+            "Turn on lights: Make your home appear occupied and well-lit to discourage any potential intruders.",
+            "Stay cautious: If you’re unsure or feel unsafe, call the police to report the situation."
+        ]
+    },
+    {
+        "scenario": "If you're in a parking lot or garage and feel unsafe",
+        "actions": [
+            "Stay alert: Keep your head up, avoid distractions like your phone, and be aware of your surroundings.",
+            "Walk with purpose: Move confidently toward your car or exit, holding your keys as a potential self-defense tool.",
+            "Avoid isolated areas: Stick to well-lit, busy sections of the lot or garage, and avoid parking near large vehicles where someone could hide.",
+            "Check your car: Before getting in, check the back seat and around your car to ensure no one is hiding nearby.",
+            "Get in quickly: Enter your car, lock the doors immediately, and start driving without delay."
+        ]
+    },
+    {
+        "scenario": "If you’re being verbally harassed in public",
+        "actions": [
+            "Stay calm: Maintain composure and avoid engaging with the harasser to prevent escalation.",
+            "Move away: Walk toward a more crowded area or seek out a nearby authority figure like a security guard.",
+            "Document the incident: If safe, take a video or note down details about the harasser and what was said.",
+            "Ignore and distract: Act as if you didn’t hear the harassment and focus on something else, like looking at your phone.",
+            "Seek support: If you feel unsafe, ask for help from someone nearby or call a friend to stay on the phone with you."
+        ]
+    },
+    {
+        "scenario": "If someone is loitering near your car",
+        "actions": [
+            "Don’t approach: Keep a safe distance and avoid getting too close to your car.",
+            "Observe from afar: Take note of the person's appearance and behavior without making direct eye contact.",
+            "Return to a safe place: Go back inside the building you came from or move to a populated area.",
+            "Call for help: Contact the authorities or security personnel to report the suspicious person.",
+            "Wait for clearance: Do not approach your car until you’re sure the person has left and it’s safe."
+        ]
+    },
+    {
+        "scenario": "If you're lost in an unfamiliar area",
+        "actions": [
+            "Stay calm: Take a deep breath and try to gather your thoughts before taking action.",
+            "Use your phone’s GPS: Check your phone’s map or navigation app to find your way back.",
+            "Avoid asking strangers: If you need directions, approach a business or a family rather than asking random people on the street.",
+            "Head to a public place: Move toward a well-lit, busy area like a store or gas station.",
+            "Stay visible: Keep to well-traveled roads and sidewalks, avoiding alleys or isolated areas."
+        ]
+    },
+    {
+        "scenario": "If you're at a party and someone is making you uncomfortable",
+        "actions": [
+            "Stay with friends: Stick close to the people you know and trust at the party.",
+            "Make an excuse: If you need to get away from someone, use an excuse like needing to go to the bathroom or get some air.",
+            "Ask for help: If you’re feeling threatened, discreetly ask a friend or the host for assistance.",
+            "Keep your drink with you: Never leave your drink unattended or accept a drink from someone you don’t know well.",
+            "Leave if necessary: If the situation doesn’t improve, consider leaving the party and going somewhere safe."
+        ]
+    },
+    {
+        "scenario": "If someone tries to grab your bag or purse",
+        "actions": [
+            "Let it go: Your safety is more important than your belongings; let go of the bag if necessary.",
+            "Create distance: Step back or move away quickly to put space between you and the attacker.",
+            "Shout for help: Yell loudly to attract attention and deter the thief.",
+            "Fight back if safe: If you feel physically capable and the situation allows, use self-defense techniques to protect yourself.",
+            "Report the theft: As soon as you’re safe, report the incident to the police and cancel any stolen cards or IDs."
+        ]
+    },
+    {
+        "scenario": "If you're being threatened by an ex-partner",
+        "actions": [
+            "Don’t engage: Avoid responding to any threats or messages that could escalate the situation.",
+            "Document everything: Keep a record of all communications, including text messages, emails, and social media interactions.",
+            "Seek a restraining order: Contact legal authorities to obtain a restraining order if necessary.",
+            "Change your routines: Alter your daily routines and make your whereabouts less predictable.",
+            "Get support: Reach out to friends, family, or a support organization to ensure you’re not facing the situation alone."
+        ]
+    }
+]
