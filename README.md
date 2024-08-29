@@ -1,3 +1,11 @@
+# Anzone 🚨
+
+**Anzone** is an AI/ML-powered women’s safety application designed to enhance your safety with real-time alerts and critical support. The app notifies you when you're in areas with high crime rates, offers an SOS feature for emergencies, and provides advice on how to handle potentially dangerous situations.
+
+## Objective 🎯
+
+Anzone aims to empower women by leveraging advanced technology to create a safer environment. The app uses AI and machine learning to analyze real-time data, sending alerts to keep you informed and safe. In addition to emergency SOS features, Anzone guides you with practical advice when you need it most, ensuring you're prepared and protected wherever you go.
+
 ## ⚡ How to run it? 🕹️
 
   To run this project locally, follow these steps:
