@@ -6,7 +6,7 @@
 
 Anzone aims to empower women by leveraging advanced technology to create a safer environment. The app uses AI and machine learning to analyze real-time data, sending alerts to keep you informed and safe. In addition to emergency SOS features, Anzone guides you with practical advice when you need it most, ensuring you're prepared and protected wherever you go.
 
-## ⚡ How to run it? 🕹️
+## ⚡ How to run the website? 🕹️
 
   To run this project locally, follow these steps:
 
@@ -30,3 +30,9 @@ npm install
 ```bash
 nodemon app.js
 ```
+
+## Future Scope 🚀
+
+- **Chatbot Integration**: The website will soon feature an integrated chatbot to provide real-time assistance and support.
+
+- **Android Application**: After the chatbot integration, Anzone will be developed into an Android application, making it accessible anytime and anywhere.
