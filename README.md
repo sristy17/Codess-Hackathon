@@ -31,6 +31,19 @@ npm install
 nodemon app.js
 ```
 
+## Tech Stack 🛠️
+
+1. **Website**:
+- **EJS (Embedded JavaScript Templates)**: The website’s interface is rendered using EJS, which     allows dynamic content to be injected into HTML templates. This makes the site interactive and user-friendly.
+
+3. **AI Chatbot**:
+    - **OpenAI API**: The chatbot leverages OpenAI’s natural language processing capabilities to provide real-time assistance and safety advice to users.
+    - **API Integration**: The chatbot is integrated using a custom API to connect the user with the AI for quick, relevant responses.
+
+4. **Design of the Android Application**:
+    - **Figma**: The application’s design prototype was created in Figma.
+
+
 ## Future Scope 🚀
 
 - **Chatbot Integration**: The website will soon feature an integrated chatbot to provide real-time assistance and support.
