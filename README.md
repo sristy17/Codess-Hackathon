@@ -49,3 +49,8 @@ nodemon app.js
 - **Chatbot Integration**: The website will soon feature an integrated chatbot to provide real-time assistance and support.
 
 - **Android Application**: After the chatbot integration, Anzone will be developed into an Android application, making it accessible anytime and anywhere.
+
+- **Voice-Activated Chatbot**: Future iterations will include voice activation, allowing hands-free interaction with the chatbot for increased accessibility, especially during emergencies.
+
+- **Enhanced AI & Data Analytics**: Improving AI capabilities to provide more personalized and accurate responses based on user behavior and advanced data analytics. Leveraging machine learning to better predict high-risk areas and offer preventative safety measures.
+
