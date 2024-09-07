@@ -8,11 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100">
+<body >
     <%- include('../includes/navbar') %>
- <div class="max-w-lg mx-auto p-6 bg-white rounded-lg shadow mt-6">
-    <h2 class="text-2xl font-bold mb-6 text-gray-800">Share Your Story</h2>
-    <p class="mb-4 text-gray-600">Share your experiences, poetry, or views to inspire and empower others.</p>
+ <div class="max-w-lg mx-auto p-6 rounded-lg shadow mt-6">
+    <h2 class="text-2xl font-bold mb-6 ">Share Your Story</h2>
+    <p class="mb-4">Share your experiences, poetry, or views to inspire and empower others.</p>
     <form action="/submit-story" method="POST">
         <div class="mb-4">
             <input type="text" name="name" placeholder="Your Name" class="p-2 w-full border border-gray-300 rounded-md" required>
@@ -24,7 +24,7 @@
             <input type="text" name="title" placeholder="Title of Your Story/Poetry" class="p-2 w-full border border-gray-300 rounded-md" required>
         </div>
         <div class="mb-4">
-            <select name="category" class="block w-full p-2 border border-gray-300 rounded-md" required>
+            <select name="category" class="block w-full p-2 border rounded-md" required>
                 <option value="">Select a category</option>
                 <option value="story">Personal Story</option>
                 <option value="poetry">Poetry</option>
