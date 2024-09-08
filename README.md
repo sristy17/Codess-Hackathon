@@ -2,6 +2,16 @@
 
 **Anzone** is an AI/ML-powered women’s safety application designed to enhance your safety with real-time alerts and critical support. The app notifies you when you're in areas with high crime rates, offers an SOS feature for emergencies, and provides advice on how to handle potentially dangerous situations.
 
+## Demo and Prototype 🎥
+
+We are excited to showcase **Anzone** through our live demo and interactive prototype. This is your opportunity to explore the key features of the app, experience the user-friendly interface, and see how real-time alerts and the AI-powered chatbot can enhance your safety.
+
+- **[View the Chatbot Demo](https://huggingface.co/spaces/pandaondamoon/CodessProjectChatbot)**: Navigate through our web platform and see how **Anzone** provides dynamic safety updates, practical advice, and more.
+- **[Prototype Link](https://www.figma.com/design/BGcYQFjHtVWhkvrhUStRb5/Codess-Hackathon-Prototype?node-id=0-1&node-type=CANVAS&t=dhLrx9Ju6xsBJghY-0)**: Check out the Android application design prototype built with Figma.
+
+Explore the demo to witness how **Anzone** makes safety accessible, intuitive, and powerful!
+
+
 ## Objective 🎯
 
 Anzone aims to empower women by leveraging advanced technology to create a safer environment. The app uses AI and machine learning to analyze real-time data, sending alerts to keep you informed and safe. In addition to emergency SOS features, Anzone guides you with practical advice when you need it most, ensuring you're prepared and protected wherever you go.
