@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Story</title>
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+    <%- include('../includes/navbar') %>
+ <div class="max-w-lg mx-auto p-6 rounded-lg shadow mt-6">
+    <h2 class="text-2xl font-bold mb-6 ">Share Your Story</h2>
+    <p class="mb-4">Share your experiences, poetry, or views to inspire and empower others.</p>
+    <form action="/submit-story" method="POST">
+        <div class="mb-4">
+            <input type="text" name="name" placeholder="Your Name" class="p-2 w-full border border-gray-300 rounded-md" required>
+        </div>
+        <div class="mb-4">
+            <input type="email" name="email" placeholder="Email Address" class="p-2 w-full border border-gray-300 rounded-md" required>
+        </div>
+        <div class="mb-4">
+            <input type="text" name="title" placeholder="Title of Your Story/Poetry" class="p-2 w-full border border-gray-300 rounded-md" required>
+        </div>
+        <div class="mb-4">
+            <select name="category" class="block w-full p-2 border rounded-md" required>
+                <option value="">Select a category</option>
+                <option value="story">Personal Story</option>
+                <option value="poetry">Poetry</option>
+                <option value="opinion">Opinion/View</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="mb-4">
+            <textarea name="content" placeholder="Your Story/Poetry/View" rows="10" class="p-2 w-full border border-gray-300 rounded-md" required></textarea>
+        </div>
+        <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Submit Your Story</button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <%- include('../includes/navbar') %>
+    <div class="max-w-lg mx-auto p-6 rounded-lg shadow mt-6">
+        <h2 class="text-2xl font-bold mb-6"> Donation Form</h2>
+        <p class="mb-4 text-gray-600">Your donation will help us continue our mission to make a difference in the world.</p>
+        <form action="#" method="POST">
+            <div class="mb-4">
+                <input type="text" name="name" placeholder="Full Name" class="p-2 w-full border border-gray-300 rounded-md">
+            </div>
+            <div class="mb-4">
+                <input type="email" name="email" placeholder="Email Address" class="p-2 w-full border border-gray-300 rounded-md">
+            </div>
+            <div class="mb-4">
+                <input type="text" name="phone" placeholder="Phone Number" class="p-2 w-full border border-gray-300 rounded-md">
+            </div>
+            <div class="mb-4">
+                <input type="text" name="address" placeholder="Address" class="p-2 w-full border border-gray-300 rounded-md">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700">Donation Amount</label>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="amount" value="10" class="text-indigo-600 form-radio">
+                        <span class="ml-2">$10</span>
+                    </label>
+                    <label class="inline-flex items-center ml-6">
+                        <input type="radio" name="amount" value="25" class="text-indigo-600 form-radio">
+                        <span class="ml-2">$25</span>
+                    </label>
+                    <label class="inline-flex items-center ml-6">
+                        <input type="radio" name="amount" value="50" class="text-indigo-600 form-radio">
+                        <span class="ml-2">$50</span>
+                    </label>
+                    <label class="inline-flex items-center ml-6">
+                        <input type="radio" name="amount" value="100" class="text-indigo-600 form-radio">
+                        <span class="ml-2">$100</span>
+                    </label>
+                    <label class="inline-flex items-center ml-6">
+                        <input type="radio" name="amount" value="other" class="text-indigo-600 form-radio">
+                        <span class="ml-2">Other</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700">Donation Frequency</label>
+                <select name="frequency" class="block w-full mt-2 p-2 border border-gray-300 rounded-md">
+                    <option value="">Select donation frequency</option>
+                    <option value="once">Once</option>
+                    <option value="monthly">Monthly</option>
+                    <option value="yearly">Yearly</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700">Payment Method</label>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="payment_method" value="paypal" class="text-indigo-600 form-radio">
+                        <span class="ml-2">PayPal</span>
+                    </label>
+                    <label class="inline-flex items-center ml-6">
+                        <input type="radio" name="payment_method" value="card" class="text-indigo-600 form-radio">
+                        <span class="ml-2">Debit or Credit Card</span>
+                    </label>
+                    <label class="inline-flex items-center ml-6">
+                        <input type="radio" name="payment_method" value="wire" class="text-indigo-600 form-radio">
+                        <span class="ml-2">Wire Transfer</span>
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
