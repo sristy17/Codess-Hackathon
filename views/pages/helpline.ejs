@@ -6,86 +6,84 @@
     <title>Helpline</title>
     <link rel="stylesheet" href="../../public/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-900 text-white">
+    
     <%- include('../includes/navbar') %>
 
-    <div class="m-5">
-        <h1 class="text-3xl font-bold">
+    <div class="m-5 p-6">
+        <h1 class="text-4xl font-bold text-center bg-gray-800 p-4 rounded-lg">
             Need Emergency Silence? 🚨
         </h1>
-        <p class="mt-2">
-            If you find yourself in a situation where you need to quickly signal for help and require immediate silence, please send us an SOS message. We understand the importance of discretion in emergency situations and are here to assist you.
+        <p class="mt-4 text-lg text-gray-300 text-center">
+            If you find yourself in a situation where you need to quickly signal for help and require immediate silence, 
+            please send us an SOS message. We understand the importance of discretion in emergency situations and are here to assist you.
         </p>
-        <h2 class="text-2xl font-bold text-center m-3">
-            To request emergency silence, please send an SOS message to our helpline number: 1800-123-4567
-            <br>
-            OR
-            <br>
-            Click the button below to send an SOS message.
-        </h2>
-        <div class="flex justify-center">
-            <a href="/" class="btn btn-error">
-                Send SOS
-            </a>
+        
+        <div class="mt-6 bg-gray-800 p-6 rounded-lg">
+            <h2 class="text-2xl font-bold text-center">
+                To request emergency silence, send an SOS message to our helpline:
+            </h2>
+            <p class="text-center text-xl font-semibold mt-2 text-yellow-400">
+                1800-123-4567
+            </p>
+            <div class="flex justify-center mt-4">
+                <a href="/" class="btn btn-error text-lg px-6 py-3 rounded-lg shadow-lg">
+                    🚨 Send SOS
+                </a>
+            </div>
+        </div>
+
+        <!-- Emergency Helplines Section -->
+        <div class="mt-8 bg-gray-800 p-6 rounded-lg">
+            <h1 class="text-3xl font-bold text-center underline">
+                Emergency Helplines
+            </h1>
+            <div class="mt-4 text-lg">
+                <p class="font-semibold">📞 National Helpline for Women: <span class="text-yellow-400">181</span></p>
+                <p class="font-semibold">🚔 Police Emergency Number: <span class="text-yellow-400">100</span></p>
+                <p class="font-semibold">🏠 Women in Distress (Domestic Violence): <span class="text-yellow-400">1091</span></p>
+                <p class="font-semibold">👶 Childline (for children in distress): <span class="text-yellow-400">1098</span></p>
+            </div>
+        </div>
+
+        <!-- Legal Aid and Support -->
+        <div class="mt-8 bg-gray-800 p-6 rounded-lg">
+            <h1 class="text-3xl font-bold text-center underline">
+                Legal Aid and Support
+            </h1>
+            <div class="mt-4 text-lg">
+                <p class="font-semibold">⚖️ National Commission for Women (NCW): <span class="text-yellow-400">+91-11-2334-0082</span></p>
+                <p class="font-semibold">📜 Legal Aid Services: <span class="text-yellow-400">+91-9820466720</span></p>
+            </div>
+        </div>
+
+        <!-- Counseling and Support Services -->
+        <div class="mt-8 bg-gray-800 p-6 rounded-lg">
+            <h1 class="text-3xl font-bold text-center underline">
+                Counseling and Support Services
+            </h1>
+            <div class="mt-4 text-lg">
+                <p class="font-semibold">🛡️ AASRA (Support for abuse victims): <span class="text-yellow-400">+91-9820466720</span></p>
+                <p class="font-semibold">🏠 SNEHA (Women & children support in Mumbai): <span class="text-yellow-400">+91-22-2771-6600</span></p>
+                <p class="font-semibold">💙 Jeevan Aastha (Mental health support): <span class="text-yellow-400">1800-233-3330</span></p>
+            </div>
+        </div>
+
+        <!-- Health and Safety -->
+        <div class="mt-8 bg-gray-800 p-6 rounded-lg">
+            <h1 class="text-3xl font-bold text-center underline">
+                Health and Safety
+            </h1>
+            <div class="mt-4 text-lg">
+                <p class="font-semibold">🩺 National AIDS Control Organisation (NACO): <span class="text-yellow-400">1097</span></p>
+                <p class="font-semibold">💊 Mental Health Helpline (iCall): <span class="text-yellow-400">9152987821</span></p>
+            </div>
+        </div>
     </div>
-
-    <div class="m-5">
-        <h1 class="text-2xl font-bold m-2">
-            <u>Emergency Helplines:</u>
-        </h1>
-        <h2 class="text-1xl font-bold m-3">
-            National Helpline for Women: 181
-        </h2>
-        <h2 class="text-1xl font-bold m-3">
-            Police Emergency Number: 100
-        </h2>
-        <h2 class="text-1xl font-bold m-3">
-            Emergency Response for Women in Distress (Domestic Violence): 1091
-        </h2>
-        <h2 class="text-1xl font-bold m-3">
-            Childline (for children in distress, which can also include young women): 1098
-        </h2>
-
-        <h1 class="text-2xl font-bold m-2">
-           <u>Legal Aid and Support:</u>
-        </h1>
-        <h2 class="text-1xl font-bold m-3">
-            National Commission for Women (NCW): +91-11-2334-0082 / +91-11-2334-0943 
-        </h2>
-        <h2 class="text-1xl font-bold m-3">
-            Legal Aid Services: +91-9820466720
-        </h2>
-
-        <h1 class="text-2xl font-bold m-2">
-            <u>Counseling and Support Services:</u>
-        </h1>
-        <h2 class="text-1xl font-bold m-3">
-            AASRA (Support for those facing abuse, including women): +91-9820466720 / +91-9820466721 
-        </h2>
-        <h2 class="text-1xl font-bold m-3">
-            SNEHA (Support for women and children in Mumbai): +91-22-2771-6600 
-        </h2>
-        <h2 class="text-1xl font-bold m-3">
-            Jeevan Aastha Helpline (Mental health support): 1800-233-3330 
-        </h2>
-
-        <h1 class="text-2xl font-bold m-2">
-            <u>Health and Safety:</u>
-        </h1>
-        <h2 class="text-1xl font-bold m-3">
-            National AIDS Control Organisation (NACO) Helpline: 1097 
-        </h2>
-        <h2 class="text-1xl font-bold m-3">
-            National Helpline for Mental Health (iCall): 9152987821
-        </h2>
-
-
-    </div>
-   
 
     <%- include('../includes/footer') %>
 
-    <script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>

@@ -7,126 +7,118 @@
     <link rel="stylesheet" href="style_community.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #2e2e2e, #000);
+            color: #ffffff;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+        }
+        .btn-glow {
+            background: linear-gradient(45deg, #ff7e5f, #feb47b);
+            transition: all 0.3s;
+        }
+        .btn-glow:hover {
+            box-shadow: 0 0 15px #ff7e5f;
+        }
+    </style>
 </head>
 <body>
     <%- include('../includes/navbar') %>
 
-
     <div class="container mx-auto px-4 py-8">
-        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Donation Card -->
-            <div class="rounded-lg shadow-md p-6">
+            <div class="card rounded-lg shadow-md p-6">
                 <h2 class="text-2xl font-semibold mb-4">Help Us Make A Difference Today</h2>
                 <p class="mb-4">Your contribution can make a difference in empowering women.</p>
-                <a href="/donation" class="block w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded text-center">
+                <a href="/donation" class="block w-full btn-glow text-white font-bold py-2 px-4 rounded text-center">
                     Donate Now
                 </a>
             </div>
- 
-
-            <!-- Story Submission Card -->
-            <div class="rounded-lg shadow-md p-6">
+            <div class="card rounded-lg shadow-md p-6">
                 <h2 class="text-2xl font-semibold mb-4">Share Your Story</h2>
                 <p class="mb-4">Inspire others by sharing your experiences or creative works.</p>
-                <a href="/submit-story" class="block w-full bg-indigo-600 hover:bg-700 text-white font-bold py-2 px-4 rounded text-center">
+                <a href="/submit-story" class="block w-full btn-glow text-white font-bold py-2 px-4 rounded text-center">
                     Submit Your Story
                 </a>
             </div>
         </div>
 
-                <!-- Inspiring Stories Section -->
-                <section class="mt-12">
-                    <h2 class="text-3xl font-bold text-center mb-8">Inspiring Stories</h2>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <!-- Story 1 -->
-                        <div class="rounded-lg shadow-md p-6">
-                            <h3 class="text-xl font-semibold mb-2">Breaking Barriers in STEM</h3>
-                            <p class="mb-2">By Sarah Johnson</p>
-                            <p >Sarah grew up in a small village with limited resources, but she always dreamed of becoming a scientist. Despite facing numerous challenges, including gender stereotypes and lack of access to quality education, Sarah persevered. She worked hard to secure scholarships and eventually earned a Ph.D. in Astrophysics. Today, Sarah is a renowned scientist, leading groundbreaking research in her field. She actively mentors young girls, encouraging them to pursue careers in STEM and proving that with determination, any dream is achievable.</p>
-                        </div>
-        
-                        <!-- Story 2 -->
-                        <div class="rounded-lg shadow-md p-6">
-                            <h3 class="text-xl font-semibold mb-2">Empowering Through Education</h3>
-                            <p class="mb-2">By Maria Rodriguez</p>
-                            <p>Maria witnessed firsthand the transformative power of education in her community. Growing up in an underprivileged neighborhood, she saw many girls drop out of school due to various socio-economic factors. Determined to make a change, Maria founded a non-profit organization that provides scholarships, mentoring, and resources to girls in her community. Over the past decade, her initiative has helped hundreds of girls complete their education and pursue their dreams. Maria's work has not only changed individual lives but has also contributed to breaking the cycle of poverty in her community.</p>
-                        </div>
-        
-                        <!-- Story 3 -->
-                        <div class="rounded-lg shadow-md p-6">
-                            <h3 class="text-xl font-semibold mb-2">Rising from Adversity</h3>
-                            <p class="mb-2">By Amina Khalid</p>
-                            <p >Amina's story is one of resilience and courage. For years, she endured domestic violence, feeling trapped and helpless. However, with the support of a local women's shelter, Amina found the strength to leave her abusive situation and rebuild her life. She pursued her education, became a lawyer, and now dedicates her career to advocating for women's rights and safety. Amina runs support groups for survivors of domestic violence, providing them with legal advice and emotional support. Her journey from victim to advocate has inspired many women to seek help and reclaim their lives.</p>
-                        </div>
-                    </div>
-                </section>
+        <section class="mt-12">
+            <h2 class="text-3xl font-bold text-center mb-8">Inspiring Stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-2">Breaking Barriers in STEM</h3>
+                    <p class="mb-2">By Sarah Johnson</p>
+                    <p>Sarah grew up in a small village... proving that with determination, any dream is achievable.</p>
+                </div>
+                <div class="card rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-2">Empowering Through Education</h3>
+                    <p class="mb-2">By Maria Rodriguez</p>
+                    <p>Maria witnessed firsthand the transformative power of education... changing individual lives.</p>
+                </div>
+                <div class="card rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-2">Rising from Adversity</h3>
+                    <p class="mb-2">By Amina Khalid</p>
+                    <p>Amina's story is one of resilience... inspiring many women to seek help.</p>
+                </div>
             </div>
+        </section>
+    </div>
 
-            <!-- Work and Volunteer Opportunities Section -->
-<section class="mt-12">
-    <h2 class="text-3xl font-bold text-center mb-8">Work and Volunteer Opportunities</h2>
-    
-    <!-- Skill Learning Cards -->
-    <div class="mb-8">
-        <h3 class="text-2xl font-semibold mb-4">Learn New Skills</h3>
+    <section class="mt-12">
+        <h2 class="text-3xl font-bold text-center mb-8">Work and Volunteer Opportunities</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <!-- Freelancing Card -->
-            <div class="rounded-lg shadow-md p-6">
+            <div class="card rounded-lg shadow-md p-6">
                 <h4 class="text-xl font-semibold mb-2">Freelancing</h4>
-                <p class="mb-4">Learn how to start and succeed in freelancing.</p>
-                <a href="https://www.youtube.com/watch?v=example-freelancing" target="_blank" class="text-indigo-600 hover:text-indigo-800">Watch Tutorial</a>
+                <p>Learn how to start and succeed in freelancing.</p>
+                <a href="#" class="text-indigo-400 hover:text-indigo-600">Watch Tutorial</a>
             </div>
-            <!-- Web Development Card -->
-            <div class="rounded-lg shadow-md p-6">
+            <div class="card rounded-lg shadow-md p-6">
                 <h4 class="text-xl font-semibold mb-2">Web Development</h4>
-                <p class="mb-4">Master the basics of web development.</p>
-                <a href="https://www.youtube.com/watch?v=example-webdev" target="_blank" class="text-indigo-600 hover:text-indigo-800">Watch Tutorial</a>
+                <p>Master the basics of web development.</p>
+                <a href="#" class="text-indigo-400 hover:text-indigo-600">Watch Tutorial</a>
             </div>
-            <!-- Digital Marketing Card -->
-            <div class="rounded-lg shadow-md p-6">
+            <div class="card rounded-lg shadow-md p-6">
                 <h4 class="text-xl font-semibold mb-2">Digital Marketing</h4>
-                <p class="mb-4">Learn essential digital marketing strategies.</p>
-                <a href="https://www.youtube.com/watch?v=example-marketing" target="_blank" class="text-indigo-600 hover:text-indigo-800">Watch Tutorial</a>
+                <p>Learn essential digital marketing strategies.</p>
+                <a href="#" class="text-indigo-400 hover:text-indigo-600">Watch Tutorial</a>
             </div>
         </div>
+    </section>
+
+    <div class="card rounded-lg shadow-md p-6 mt-8">
+        <h2 class="text-2xl font-semibold mb-4">Job Opportunities</h2>
+        <p class="mb-4">Explore and apply for exciting job opportunities.</p>
+        <a href="/job-application" class="block w-full btn-glow text-white font-bold py-2 px-4 rounded text-center">
+            Apply Now
+        </a>
     </div>
-    
-</section>
 
-<!-- Job Opportunities Box -->
-<div class="rounded-lg shadow-md p-6 mt-8">
-    <h2 class="text-2xl font-semibold mb-4">Job Opportunities</h2>
-    <p class="mb-4">Explore and apply for exciting job opportunities.</p>
-    <a href="/job-application" class="block w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded text-center">
-        Apply Now
-    </a>
-</div>
-            
+    <section class="mt-12 bg-gradient-to-r from-orange-500 to-red-600 p-8 rounded-lg">
+        <div class="max-w-3xl mx-auto text-white">
+            <h2 class="text-3xl font-bold text-center mb-4">BE PART OF OUR COMMUNITY</h2>
+            <p class="text-center mb-6">Receive the latest news on events, upcoming webinars, and small business resources.</p>
+            <form class="space-y-4">
+                <input type="email" placeholder="Enter your e-mail address" class="w-full p-2 rounded text-black" required>
+                <div class="flex items-center">
+                    <input type="checkbox" id="privacy-policy" class="mr-2" required>
+                    <label for="privacy-policy" class="text-sm">By subscribing, I accept the terms of the <a href="#" class="underline">Privacy Policy.</a></label>
+                </div>
+                <button type="submit" class="bg-white text-orange-600 font-bold py-2 px-4 rounded w-full hover:bg-orange-400">
+                    SUBMIT
+                </button>
+            </form>
+        </div>
+    </section>
 
-            <!-- Subscribe-->
-<section class="mt-12 bg-gradient-to-r from-orange-400 to-orange-600 p-8 rounded-lg">
-    <div class="max-w-3xl mx-auto text-white">
-        <h2 class="text-3xl font-bold text-center mb-4">BE PART OF OUR COMMUNITY</h2>
-        <p class="text-center mb-6">Receive the latest news on events, upcoming webinars, and small business resources, straight to your inbox</p>
-        
-        <form class="space-y-4">
-            <input type="email" placeholder="Enter your e-mail address" class="w-full p-2 rounded text-black" required>
-            
-            <div class="flex items-center">
-                <input type="checkbox" id="privacy-policy" class="mr-2" required>
-                <label for="privacy-policy" class="text-sm">
-                    By subscribing, I accept the terms of the <a href="#" >Privacy Policy.</a>
-                </label>
-            </div>
-            
-            <button type="submit" class="bg-white text-orange-600 font-bold py-2 px-4 rounded w-full">
-                SUBMIT
-            </button>
-        </form>
-    </div>
-</section>
-
-<%- include('../includes/footer') %>
+    <%- include('../includes/footer') %>
 </body>
 </html>

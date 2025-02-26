@@ -6,32 +6,83 @@
     <title>Home</title>
     <link rel="stylesheet" href="../../public/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <style>
+        /* Smooth Hero Section Fade-in */
+        .hero-content {
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Stylish Button */
+        .btn-primary {
+            background: linear-gradient(90deg, #ff6f61, #ffcc00);
+            border: none;
+            font-weight: bold;
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease-in-out;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(255, 204, 0, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(255, 204, 0, 0.6);
+        }
+
+        /* Improved Text Styling */
+        .hero h1 {
+            font-size: 3.5rem;
+            color: #ffcc00;
+            text-shadow: 0 0 10px rgba(255, 204, 0, 0.8);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #ffffff;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+        }
+    </style>
 </head>
 <body>
     <%- include('../includes/navbar') %>
 
-        <div
-        class="hero min-h-screen"
+    <div class="hero min-h-screen"
         style="background-image: url(https://www.bhmpics.com/downloads/aesthetic-line-art-black-background/3.06fcf5247475b9e7af44e401cf816fcf.jpg);">
         <div class="hero-overlay bg-opacity-80"></div>
         <div class="hero-content text-neutral-content text-center">
             <div class="max-w-md">
-            <h1 class="m-5 text-5xl font-bold">Welcome to Anzone!</h1>
-            <p class="mb-5" style="font-size: large; color: rgb(255, 255, 255);">
-                We&apos;re thrilled to have you here at Anzone, your go-to resource for inspiration, support, and growth. Our mission is to help women like you thrive by providing access to self-work tools, essential helpline numbers, and a vibrant community of stories and experiences.
-                <br><br>
-                Explore our collection of empowering blogs and discover the incredible journeys of women who have transformed their lives. Whether you&apos;re seeking motivation or looking to share your own story, EmpowerHer is here to support you every step of the way.
-                <br><br>
-                Join our community, find your path, and let&apos;s inspire and uplift each other together. Welcome to a space where your journey matters and your voice is valued.
-            </p>
-            <a href="/helpline">
-                <button class="btn btn-primary">Explore More!</button>
-            </a>
+                <h1 class="m-5 font-bold">Welcome to Anzone!</h1>
+                <p class="mb-5">
+                    We&apos;re thrilled to have you here at Anzone, your go-to resource for inspiration, support, and growth. 
+                    Our mission is to help women like you thrive by providing access to self-work tools, essential helpline numbers, 
+                    and a vibrant community of stories and experiences.
+                    <br><br>
+                    Explore our collection of empowering blogs and discover the incredible journeys of women who have transformed their lives. 
+                    Whether you&apos;re seeking motivation or looking to share your own story, EmpowerHer is here to support you every step of the way.
+                    <br><br>
+                    Join our community, find your path, and let&apos;s inspire and uplift each other together. Welcome to a space where your journey 
+                    matters and your voice is valued.
+                </p>
+                <a href="/helpline">
+                    <button class="btn btn-primary">Explore More!</button>
+                </a>
             </div>
         </div>
-        </div>
+    </div>
 
-        <%- include('../includes/footer') %>
+    <%- include('../includes/footer') %>
 
     <script src="https://cdn.tailwindcss.com"></script>
 </body>

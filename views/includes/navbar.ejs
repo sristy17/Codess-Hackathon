@@ -1,73 +1,114 @@
-<nav>
-  <div class="glass">
-    <div class="navbar" >
-        
-            <a href="/" class="btn btn-ghost text-xl">Home</a>
-            <a href="/helpline" class="btn btn-ghost text-xl">Helpline</a>
-            <a href="/community" class="btn btn-ghost text-xl">Join our Community</a>
-            <a href="/about" class="btn btn-ghost text-xl">About Us</a>
-       
-       <div class="navbar-end" style="margin-left: 20rem;">
+<html>
+<head>
+  <title>Navbar</title>
+  <link rel="stylesheet" href="../../public/css/style.css">
+  <style>
+    /* Glassmorphism effect for the navbar */
+    .glass {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Navbar links */
+    .navbar {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: all 0.3s ease-in-out;
+    }
+
+    /* Hover effect for navbar links */
+    .navbar a:hover {
+      background: rgba(255, 255, 255, 0.3);
+      color: #007bff;
+      transform: scale(1.1);
+    }
+
+    /* Right-side buttons (Chatbot + Dark Mode) */
+    .navbar-end {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    /* Dark mode button glow effect */
+    .swap {
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
+
+    .swap:hover {
+      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+      transform: scale(1.1);
+    }
+
+    /* Chatbot button animation */
+    .dropdown button {
+      transition: all 0.3s ease-in-out;
+      border-radius: 5px;
+    }
+
+    .dropdown button:hover {
+      background: #007bff;
+      color: white;
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="glass">
+      <!-- Left side: Navbar links -->
+      <div class="navbar">
+        <a href="/" class="btn btn-ghost text-xl">Home</a>
+        <a href="/helpline" class="btn btn-ghost text-xl">Helpline</a>
+        <a href="/community" class="btn btn-ghost text-xl">Join our Community</a>
+        <a href="/about" class="btn btn-ghost text-xl">About Us</a>
+      </div>
+
+      <!-- Right side: Light/Dark mode + Chatbot -->
+      <div class="navbar-end">
+        <!-- Dark mode toggle -->
         <label class="swap swap-rotate">
+          <input type="checkbox" class="theme-controller" value="pastel" />
+          <svg class="swap-off h-10 w-10 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
+          </svg>
+          <svg class="swap-on h-10 w-10 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
+          </svg>
+        </label>
 
-            <input type="checkbox" class="theme-controller" value="pastel" />
-          
-            <!-- sun icon -->
-            <svg
-              class="swap-off h-10 w-10 fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24">
-              <path
-                d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z" />
-            </svg>
-
-         <!-- moon icon -->
-         <svg
-         class="swap-on h-10 w-10 fill-current"
-         xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 24 24">
-         <path
-           d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
-       </svg>
-     </label>
-
-     <div class="dropdown dropdown-end" style="margin: 1rem;">
-      <div tabindex="0" role="button" class="btn ">ChatBot</div>
-      <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-80 p-2 shadow">
-        <div class="chat chat-start">
-          <div class="chat-image avatar">
-            <div class="w-10 rounded-full">
-              <img
-                alt="Tailwind CSS chat bubble component"
-                src="data:image/png;base64,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" />
+        <!-- Chatbot dropdown -->
+        <div class="dropdown dropdown-end">
+          <button class="btn">ChatBot</button>
+          <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-80 p-2 shadow">
+            <div class="chat chat-start">
+              <div class="chat-image avatar">
+                <div class="w-10 rounded-full">
+                  <img src="data:image/png;base64,...">
+                </div>
+              </div>
+              <div class="chat-bubble">Hello! How can I help you?</div>
             </div>
-          </div>
-          <div class="chat-header">
-            ChatBot
-            <time class="text-xs opacity-50">12:45</time>
-          </div>
-          <div class="chat-bubble">You were the Chosen One!</div>
-          <div class="chat-footer opacity-50">Delivered</div>
+          </ul>
         </div>
-        <div class="chat chat-end">
-          <div class="chat-image avatar">
-            <div class="w-10 rounded-full">
-              <img
-                alt="Tailwind CSS chat bubble component"
-                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-            </div>
-          </div>
-          <div class="chat-header">
-            Anakin
-            <time class="text-xs opacity-50">12:46</time>
-          </div>
-          <div class="chat-bubble">Thanks!</div>
-          <div class="chat-footer opacity-50">Seen at 12:46</div>
-        </div>
-      </ul>
-    </div>
-
-       </div>
       </div>
     </div>
-</nav>
+  </nav>
+</body>
+</html>
